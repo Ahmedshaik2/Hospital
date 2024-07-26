@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4x4 Appointment Form</title>
+    <style>
+        body{
+            padding: 30PX;
+            margin-left:80px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 70x;
+            background-image: url('bloodcamp.jpg');
+        }
+        .top-right-image {
+            position: absolute;
+            top: 30px;
+            right: 30px; 
+            width: 100px; 
+            height: auto;
+        }
+        .top-right{
+            position: absolute;
+            bottom: -45px;
+            right: 30px; 
+            width: 100px; 
+            height: auto;
+        }
+        label{
+            font-weight: bold;
+        }
+        .donor{
+            color:rgba(238, 185, 12,1);
+            font-size: 170%;
+            
+        }
+        .color{
+            background:rgb(207, 207, 219) 120px ;
+        }
+        .hr{
+            color:red;
+            size:30px; 
+            top: 20px;
+            height:2px;
+            left: 0;
+            position: bottom;
+            width: 100%;
+            background: #EF3D32;
+        }
+        .home{
+            text-align:right ;
+            font-size: 23px;
+            color:rgb(15, 14, 14);
+            size:30px; 
+            top: 20px;
+            height:2px;
+            left: 0;
+            position: bottom;
+            width: 100%;
+            background: #48c9da00;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <form>
+    <div class="background">
+        <h1><U><center>BLOOD DONATION FORM</U></center></h1>
+        <p class="donor"><em><strong>Blood Donor information</strong></em></p>  
+        <img src="blooddrop.jpg" alt="Top Right Image" class="top-right-image">
+        <div>
+        <p style="font-size:23px;text-align: center; color:orangered"><em><strong>Personal Details</strong></em></p><hr class="hr">
+        </div>
+        <p><label>Donor's Name*:</label>
+            <input type="text " placeholder="First Name">
+            <input type="text" placeholder="Middle Name" >
+            <input type="text" placeholder="Last Name">
+        </p><br>
+        <P><label>Date Of Birth* :</label>
+            <input type="date"/><br>
+        </p>
+        <p><label>Phone* :</label>
+            <input type="text" placeholder="Please Enter Your Valid Mobule No"><br>
+            <p><label>Email ID :</label><input type="text" placeholder="Please Enter Your Valid Email ID"></p><br>
+        <p><label>Gender*:</label>
+        <select>
+            <option>--select--</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Transgender</option>
+        </select></p><br>
+        <p><label>BLOOD TYPE:</label><select>
+            <option value="">--select--</option>
+            <option value="A+">A+</option> 
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select></p><br>
+        <p><label>ID Proof*:<input type="file"></label></p><br>
+        <img src="blooddrop.jpg" alt="Top Right" class="top-right">
+        <p><label>ADDRESS :</label><input type="comment" placeholder="Street">
+            <input type="text" placeholder="City" >
+            <input type="text" placeholder="Region"><br>
+        </p>
+        <p><label>OCCUPATION:</label><input type="text" placeholder="Worker"></p>
+ 
+        <p><strong>Did you ever donate blood before?</strong></p>
+        <p>
+            <input type="checkbox"> YES
+            <input type="checkbox">NO</p><br>
+            <p style="font-size: 18px;"><strong>Health Security Check</strong></p>
+        <hr>
+        <br>
+        <p><strong>Do you suffer of any diseases?*</strong></p>
+        <p>
+            <input type="checkbox"> YES
+            <input type="checkbox">NO
+        
+        <p><strong>Do you have allergies?*</strong></p>
+        <p>
+            <input type="checkbox"> YES
+            <input type="checkbox">NO  
+        </p>
+        <center><input type="Submit" class="color">
+        <input type="reset" class="color"></center>
+  <a class="home" href="desktop.html">Home</a></p>
+       <hr>
+        <p style="color:rgb(80, 60, 5)"><strong><em> By donating blood, you can help save lives and make a significant difference in your community. Every donation counts</em></strong></p>
+
+    </div>
+    
+</form>
+
+</body>
+</html>
